@@ -5,11 +5,14 @@
   "repository": "https://github.com/hohoski/efu-script.git",
   "author": "hohoski <j35204@gmail.com>",
   "scripts": {
-    "docs:dev" : "vuepress dev docs --port 3000",
-    "docs:build" : "vuepress build docs"
+    "docs:dev": "vuepress dev docs --port 3000",
+    "docs:build": "vuepress build docs",
+    "prettier": "prettier **/*/*.md --write"
   },
   "license": "MIT",
   "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.9.7",
+    "prettier": "^2.8.0",
     "vuepress": "^1.9.7"
   }
 }
