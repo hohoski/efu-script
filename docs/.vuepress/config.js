@@ -17,6 +17,7 @@ module.exports = {
             'javascript',
             'executionEnvironment',
             'variable',
+            'example',
             ],
 
         '/vue/' : [
